@@ -54,9 +54,9 @@ int main() {
     // Validate key
     if (strcmp(userKey, FIXED_KEY) == 0) {
         xorEncryptDecrypt(encrypted, FIXED_KEY, decrypted);
-        printf("\n✅ Correct key! \n Decrypted message: %s\n", decrypted);
+        printf("\n Correct key! \n Decrypted message: %s\n", decrypted);
     } else {
-        printf("\n❌ Incorrect key! Decryption failed.\n");
+        printf("\n Incorrect key! Decryption failed.\n");
     }
 
     // Free allocated memory
